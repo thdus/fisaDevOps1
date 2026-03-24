@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class Controller {
 
-	@GetMapping("ce4")
+	@GetMapping("ce3")
 	public String getData() {
 		System.out.println("요청 및 응답 --------------");
 		return "data";
